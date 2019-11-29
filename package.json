@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-react-native-classname-to-dynamic-style",
+  "name": "@funya._./babel-plugin-react-native-classname-to-dynamic-style",
   "version": "0.22.0",
   "description": "Transform JSX className property to dynamic style property in React Native. The plugin is used to match style objects containing parsed CSS media queries with React Native.",
   "keywords": [
@@ -15,10 +15,6 @@
   },
   "author": "Krister Kari",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kristerkari/babel-plugin-react-native-classname-to-dynamic-style"
-  },
   "files": [
     "CHANGELOG.md",
     "index.js",
@@ -101,6 +97,7 @@
     }
   },
   "dependencies": {
+    "@funya._./react-native-dynamic-style-processor": "/Users/junli/work/fun/react-native-dynamic-style-processor",
     "react-native-dynamic-style-processor": "^0.21.0"
   }
 }

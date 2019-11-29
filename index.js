@@ -45,7 +45,7 @@ module.exports = function(babel) {
 
   function generateRequire(name) {
     var require = t.callExpression(t.identifier("require"), [
-      t.stringLiteral("react-native-dynamic-style-processor")
+      t.stringLiteral("@funya._./react-native-dynamic-style-processor")
     ]);
     var d = t.variableDeclarator(name, require);
     return t.variableDeclaration("var", [d]);
