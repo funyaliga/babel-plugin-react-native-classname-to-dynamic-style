@@ -22,6 +22,7 @@
   ],
   "devDependencies": {
     "@babel/eslint-plugin-development": "^1.0.1",
+    "@funya._./react-native-dynamic-style-processor": "^0.21.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "babel-plugin-tester": "^5.5.2",
@@ -95,9 +96,5 @@
         "statements": 75
       }
     }
-  },
-  "dependencies": {
-    "@funya._./react-native-dynamic-style-processor": "/Users/junli/work/fun/react-native-dynamic-style-processor",
-    "react-native-dynamic-style-processor": "^0.21.0"
   }
 }
